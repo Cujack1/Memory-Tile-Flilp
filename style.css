@@ -1,0 +1,79 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    overflow: hidden;
+}
+
+
+/* Buttons */
+/* ========== */
+
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.spaceHolder {
+    margin: 20px;
+    padding: 10px 20px 13px;
+    border: none;
+    border-radius: 20px;
+    background: yellowgreen;
+    font-size: 2.5rem;
+    font-weight: bold;
+    opacity: 0;
+}
+
+.startButton {
+    margin: 20px;
+    padding: 10px 20px 13px;
+    border: none;
+    border-radius: 20px;
+    background: yellowgreen;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background: rgb(160, 241, 0);
+    box-shadow: 0 9px #999;
+}
+
+.startButton:hover {
+    cursor: pointer;
+}
+
+.startButton:active {
+    background: rgb(160, 241, 0);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+/* Board */
+/* ========== */
+.boardBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
+    justify-items: center;
+}
+
+.tile {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background: red;
+}
+
+
+/* Animations */
+/* ========== */
+
+
+/* Which is going to then translate Y 180deg */
